@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .card {
+            background-color: darkgray;
+            border-radius: 10px;
+            padding: 10px ;
+            display: flex;
+            align-items: center;
+         }
+        
+        .img {
+            width: 100px;
+            height: 100px;
+            background-color: dimgray;
+         }
+
+        .conteudo {
+            width: 300px;
+            color: cornsilk;
+        }
+        @media(min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="img"></div>
+
+                <div class="conteudo">
+                    <h3>Título do card</h3>
+                    <p>Texto de descrição do card</p>
+                </div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+
+                <div class="conteudo">
+                    <h3>Título do card</h3>
+                    <p>Texto de descrição do card</p>
+                </div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+
+                <div class="conteudo">
+                    <h3>Título do card</h3>
+                    <p>Texto de descrição do card</p>
+                </div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+
+                <div class="conteudo">
+                    <h3>Título do card</h3>
+                    <p>Texto de descrição do card</p>
+                </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
